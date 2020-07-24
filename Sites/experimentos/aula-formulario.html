@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA HTML</title>
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+    <form action="">
+        <fieldset>
+            <legend>CADASTRE-SE</legend>
+                <label for="nomeId">Nome:</label>  
+                <input type="text" name="nome" id="nomeId" placeholder="Digite seu nome" maxlength="10" required>
+                
+                <label for="sobrenomeId">Sobrenome:</label>  
+                <input type="text" name="sobrenome" id="sobrenomeId" placeholder="Digite seu sobrenome" maxlength="30">
+                
+                <label for="emailId">E-mail:</label> 
+                <input type="email" name="email" id="emailId" placeholder="Digite seu e-mail" required>
+                
+                <label for="senhaId">Senha:</label>  
+                <input type="password" name="senha" id="senhaId" placeholder="*****" required>
+                
+                <label for="telefoneId">Telefone:</label>  
+                <input type="number" name="telefone" id="telefoneId" placeholder="Digite seu telefone">
+        </fieldset>
+        <fieldset>
+            <legend>INFORMAÇÕES ADICIONAIS(Opcional)</legend>
+                Sexo:
+                    <label for="masculinoId">Masculino</label>
+                    <input type="radio" name="sexo" id="masculinoId">
+                    <label for="femininoId">Feminino</label> 
+                    <input type="radio" name="sexo" id="femininoId">
+                
+                <label for="datanascimentoId">Data de Nascimento:</label>
+                    <input type="date" name="datanascimento" id="datanascimentoId">
+                
+                <select name="estado" id="estadoId">Estado:
+                    <optgroup label="Distrito Federal"> 
+                        <option value="df">Brasília</option>
+                    </optgroup>
+                    <optgroup label="Norte/Nordeste">
+                        <option value="ba">Bahia</option>
+                        <option value="sp" selected>São Paulo</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                        <option value="ma">Maranhão</option>
+                        <option value="pa">Paraná</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="nt">Natal</option>
+                    </optgroup>
+                </select>
+
+                <label for="cidadeId">Cidade</label>
+                    <input type="text" name="cidade" id="cidadeId" placeholder="Selecione a sua cidade:" list="listaCidade">
+                    <datalist id="listaCidade">
+                        <option value="Gama"></option>
+                        <option value="Asa Sul"></option>
+                        <option value="Asa Norte"></option>
+                        <option value="Campina Grande"></option>
+                        <option value="Osasco"></option>
+                        <option value="Copa Cabana"></option>
+                        <option value="Samambaia"></option>
+                        <option value="Gramado"></option>
+
+                    </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>SUAS BANDAS NACIONAIS PREFERIDAS</legend>
+                <input type="checkbox" name="nacionais" value="Pitty"> Pitty
+                <input type="checkbox" name="nacionais" value="Legião"> Legião Urbana
+                <input type="checkbox" name="nacionais" value="Capital"> Capital inicial 
+                <input type="checkbox" name="nacionais" value="Chorão"> Charlie Brown Jr
+                <input type="checkbox" name="nacionais" value="Skank"> Skank
+
+        </fieldset>
+        <fieldset>
+            <legend>SUAS BANDAS INTERNACIONAIS PREFERIDAS</legend>
+                <input type="checkbox" name="internacionais" value="Nirvana"> Nirvana
+                <input type="checkbox" name="internacionais" value="Guns 'n Roses"> Guns 'n Roses
+                <input type="checkbox" name="internacionais" value="Metallica"> Metallica  
+                <input type="checkbox" name="internacionais" value="ACDC"> ACDC
+                <input type="checkbox" name="internacionais" value="U2"> U2
+        </fieldset>
+        <fieldset>
+            <legend>ENVIE UMA MENSAGEM!</legend>
+                <textarea name="" id="mensagemId" cols="50" rows="10"></textarea>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+        </fieldset>
+        <fieldset>
+            <legend>OUTROS CAMPOS INTERESSANTES</legend>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
