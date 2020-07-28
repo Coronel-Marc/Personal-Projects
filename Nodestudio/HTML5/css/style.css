@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(207, 132, 97);
+    box-sizing: border-box;
+    margin: 10%;
+}
+p{
+    background-color: darkred;
+    padding: 10%;
+    width: 95%;
+    text-align: center;
+    letter-spacing: 10px;
+    box-shadow:15px 25px 60px rgb(139, 0, 0);
+}
