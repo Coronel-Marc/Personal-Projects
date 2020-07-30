@@ -1,4 +1,80 @@
+/*RESET*/
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
 }
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em; 
+    color: #333333;
+}
+p{
+    font-size: 1em;
+    color: #777777;
+}
+/*CABECALHO*/
+/*<div>Ícones feitos por <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+*/
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #DAD5D2;
+}
+.logo a{
+    background: url(../img/shopsnode-logo.png) no-repeat;
+    width: 250px;
+    height: 40px;
+    float: left;
+    font-size: 0;
+}
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #cabfb8;
+    cursor: pointer;
+}
+
+
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #111111;
+    padding: 18px 8%;
+}
+.menu li{
+    float:  left;    
+}
+.menu li a{
+    color: #9d9d9d;
+    margin-right: 20px;
+}
+.menu li a:hover{
+    color: #ffffff;
+}
+
