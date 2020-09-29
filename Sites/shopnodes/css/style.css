@@ -61,6 +61,9 @@ p{
     cursor: pointer;
     border-radius: 0 5px 5px 0;
 }
+.cabecalho button:hover{
+    color: #ffffff;
+}
 
 
 .menu{
