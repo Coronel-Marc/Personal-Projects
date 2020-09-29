@@ -51,6 +51,7 @@ p{
     width: 85%;
     float: left;
     padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
 }
 .cabecalho button{
     width: 15%;
@@ -58,6 +59,7 @@ p{
     padding: 15px 10px;
     background-color: #cabfb8;
     cursor: pointer;
+    border-radius: 0 5px 5px 0;
 }
 
 
@@ -78,6 +80,46 @@ p{
     color: #ffffff;
 }
 
-/*CORPO*/
+/*SOCIAL ICONS*/
+.social-icons{
+    float: right;
+    color: #ffffff;
+}
+.social-icons a{
+    color: #ffffff;
+    float: left;
+    margin-left: 12px;
+}
+.button-facebook:hover{
+    color: #3B5998;}
+.button-instagram:hover{
+    color: #8b0644;}
+.button-twitter:hover{
+    color: #54A4d6;
+}    
+/*PRINCIPAL*/
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+} 
+.sobre h2{
+    margin-bottom: 15px;
+}  
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius:  5px;
+    margin: 0 15px 15px 0;
+}
+.sobre p{
+    text-align: justify;
+}
+
 
 
